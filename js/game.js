@@ -28,17 +28,17 @@ export default class Game {
 			0,
 			0,
 		);
-		this.cell = await this.preloadImage('../images/cell.png');
-		this.food = await this.preloadImage('../images/food.png');
-		this.snakeBody = await this.preloadImage('../images/body.png');
-		this.snakeHead = await this.preloadImage('../images/head.png');
-		this.bomb = await this.preloadImage('../images/bomb.png');
+		this.cell = await this.preloadImage('/images/cell.png');
+		this.food = await this.preloadImage('/images/food.png');
+		this.snakeBody = await this.preloadImage('/images/body.png');
+		this.snakeHead = await this.preloadImage('/images/head.png');
+		this.bomb = await this.preloadImage('/images/bomb.png');
 	}
 	async preloadSounds() {
-		this.bombSound = await this.preloadSound('../sounds/bomb.wav');
-		this.foodSound = await this.preloadSound('../sounds/food.wav');
-		this.gameOverSound = await this.preloadSound('../sounds/game-over.wav');
-		this.snakeSound = await this.preloadSound('../sounds/snakecharmer.wav');
+		this.bombSound = await this.preloadSound('/sounds/bomb.wav');
+		this.foodSound = await this.preloadSound('/sounds/food.wav');
+		this.gameOverSound = await this.preloadSound('/sounds/game-over.wav');
+		this.snakeSound = await this.preloadSound('/sounds/snakecharmer.wav');
 		this.snakeSound.loop = true;
 		this.snakeSound.volume = 0.1;
 	}
