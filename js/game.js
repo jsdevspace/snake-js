@@ -30,7 +30,7 @@ export default class Game {
 		);
 		this.cell = await this.preloadImage('https://jsdevspace.github.io/snake-js/images/cell.png');
 		this.food = await this.preloadImage('https://jsdevspace.github.io/snake-js/images/food.png');
-		this.snakeBody = await this.preloadImage('/https://jsdevspace.github.io/snake-jsimages/body.png');
+		this.snakeBody = await this.preloadImage('https://jsdevspace.github.io/snake-js/images/body.png');
 		this.snakeHead = await this.preloadImage('https://jsdevspace.github.io/snake-js/images/head.png');
 		this.bomb = await this.preloadImage('https://jsdevspace.github.io/snake-js/images/bomb.png');
 	}
