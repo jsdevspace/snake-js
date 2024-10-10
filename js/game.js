@@ -24,7 +24,7 @@ export default class Game {
 	}
 	async preloadImages() {
 		this.background = await this.preloadImage(
-			'../images/background.png',
+			'https://jsdevspace.github.io/snake-js/images/background.png',
 			0,
 			0,
 		);
