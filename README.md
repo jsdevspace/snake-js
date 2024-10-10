@@ -2,6 +2,8 @@
 
 This repository contains a classic Snake game built entirely from scratch using pure JavaScript, HTML, and CSS. The game features smooth gameplay, interactive elements, and sound effects, providing a nostalgic gaming experience.
 
+Check the [**tutorial**](https://jsdev.space/snake-js/)
+
 **Features**
 - **Classic Snake Gameplay**: Control the snake to collect food and grow longer while avoiding collisions with walls and itself.
 - **Dynamic Food Generation**: Food appears at random, and the score increases with each food item consumed.
