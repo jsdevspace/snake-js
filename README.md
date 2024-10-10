@@ -14,7 +14,7 @@ Check the [**tutorial**](https://jsdev.space/snake-js/)
 ## Installation
 1. Clone this repository to your local machine:
 ```bash
-git clone https://github.com/yourusername/snake-game.git
+git clone https://github.com/jsdevspace/snake-game.git
 ```
 2. Open the **index.html** file in your web browser to start playing!
    
