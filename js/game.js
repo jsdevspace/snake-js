@@ -1,5 +1,5 @@
-import BoardController from './controllers/BoardController.js';
-import SnakeController from './controllers/SnakeController.js';
+import BoardController from './controllers/boardController.js';
+import SnakeController from './controllers/snakeController.js';
 
 export default class Game {
 	constructor() {
